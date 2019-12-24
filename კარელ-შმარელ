@@ -1,0 +1,13 @@
+function main(){
+    while (frontIsClear()){
+      buildstreets();
+    } 
+}
+ 
+
+
+function buildstreets(){
+    move();
+    putBeeper();
+    move();
+}
