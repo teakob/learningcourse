@@ -1,0 +1,15 @@
+function main(){
+   putBeeper();
+   up();
+   }
+
+
+function up(){
+   repeat(4){
+     move();
+     turnLeft();
+     move();
+     turnRight();
+     putBeeper();
+      }
+}
